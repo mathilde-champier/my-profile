@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(237, 237, 237);
+    font-family: Geneva;
+    font-size: medium; 
+    line-height: 60%;
+    color: rgb(115, 94, 94);
+}
+
+h1,h2 {
+    color : rgb(226, 164, 72);
+    font-family: Verdana;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #6B72E1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.card-white:hover {
+    box-shadow: 20px 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.btn-blue:hover {
+    background-color: #0413e9;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 200%;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
